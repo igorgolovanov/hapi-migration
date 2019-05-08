@@ -1,0 +1,37 @@
+{
+  "name": "hapi-migration",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/igorgolovanov/hapi-migration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorgolovanov/hapi-migration/issues"
+  },
+  "homepage": "https://github.com/igorgolovanov/hapi-migration#readme",
+  "keywords": [
+    "hapi",
+    "migration",
+    "plugin",
+    "db",
+    "database"
+  ],
+  "author": {
+    "name": "Igor Golovanov",
+    "email": "igor.golovanov@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.x.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@hapi/code": "5.x.x",
+    "@hapi/lab": "18.x.x"
+  },
+  "scripts": {
+    "test": "lab -La @hapi/code -t 100"
+  }
+}
